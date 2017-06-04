@@ -1,6 +1,6 @@
 package com.ciazhar.entity;
 
-import com.ciazhar.entity.security.User;
+//import com.ciazhar.entity.security.User;
 import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
@@ -31,9 +31,9 @@ public class Employee {
     @Email
     private String email;
 
-    @OneToOne
-    @JoinColumn(name = "id_user")
-    private User user;
+//    @OneToOne
+//    @JoinColumn(name = "id_user")
+//    private User user;
 
 
     public String getId() {

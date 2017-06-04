@@ -22,7 +22,6 @@ public class AplikasiController {
 
     @Autowired
     private AplikasiDao dao;
-
     @RequestMapping(value = "/aplikasi", method = RequestMethod.GET)
     @ResponseBody
     public Page<Aplikasi> daftarAplikasi(Pageable page){
